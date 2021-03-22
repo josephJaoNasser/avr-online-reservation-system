@@ -1,0 +1,237 @@
+html
+{
+	font-family: 'Roboto';
+	min-height: 100%;
+	position: relative;
+	zoom: 90%;
+}
+
+body
+{
+	height: 100%;
+	background-color: #d8d8d8;
+	background-position: fixed;
+	overflow: hidden;
+}
+
+/*classes*/
+
+.day
+{
+	padding: 15px;
+	font-size: 20px;
+	letter-spacing: 3px;
+	color: #a8a6a6;
+}
+
+.date
+{
+	padding-bottom: 20px;
+	font-size: 20px;
+	color: red;
+}
+
+.date button
+{
+	height: 45px;
+	width: 45px;
+	border-radius: 40px;
+	border-style: none;
+	background-color: white;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.date button:hover
+{
+	background-color: #dbdbdb;
+	cursor: pointer;
+}
+
+.square_btn
+{
+	font-family: 'Roboto';
+	font-size: 15px;
+	color: white;
+	height: 50px;
+	padding: 15px;
+	border-style: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.select_btn
+{
+	background-color: #46BA6D;
+}
+
+.square_back_btn
+{
+	background-color: #ff615e;
+}
+
+.select_btn:hover
+{
+	background-color: #128C3B;
+	cursor: pointer;
+}
+
+.square_back_btn:hover
+{
+	background-color: #bc4947;
+	cursor: pointer;
+}
+
+
+.popup_window
+{
+	text-align: center;
+	font-size: 20px;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	padding: 30px;
+	margin-top: 15%;
+	margin-left: 35%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: none;
+}
+
+/*IDs*/
+
+#select_time
+{
+	font-family: 'Roboto';
+	font-size: 20px;
+	padding: 10px;
+	border-style: none;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+}
+
+#window
+{
+	height: 125px;
+	width: 400px;
+}
+
+#black_window_bg
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	display: none;
+}
+
+#btn_back
+{
+	float: left;
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 50px;
+	height: 80px;
+	width: 80px;
+	border-radius: 60px;
+	border-style: none;
+	font-family: 'Roboto';
+	font-size:30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #46BA6D;
+	color: white;
+}
+
+#btn_back:hover
+{
+	background-color: #128C3B;
+	cursor: pointer;
+}
+
+
+#calendar_header
+{
+	background-color: #66A8BE;
+	letter-spacing: 40px;
+	color: white;
+	width: 550px;
+	padding: 20px;	
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+	display: none;
+}
+
+#calendar
+{
+	background-color: white;
+	color: black;
+	width: 550px;
+	padding: 5px 20px 5px 20px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: none;
+}
+
+#days_of_week
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#loginId
+{	
+	margin-left: 50px;	
+	height: 50px;
+}
+
+#account_name
+{
+	float: left;
+	margin: 0 auto;
+	margin-left: 20px;
+	font-size: 25px;
+	color: black; 
+}
+
+#top_bar
+{
+	height: 50px;
+	padding: 10px;
+	background-color: #013891;
+	margin: -10px -10px 50px -10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile_picture
+{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	background-color: gray;
+	float: left;
+}
+
+#btn_logout
+{
+	border-style: none;
+	border-radius: 10px;
+	background-color: #b72d2d;
+	padding: 15px;
+	color: white;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-right: 30px; 
+	float: right;
+	position: relative;
+}
+
+#btn_logout:hover
+{
+	background-color: #6d1a1a;
+	cursor: pointer;
+}

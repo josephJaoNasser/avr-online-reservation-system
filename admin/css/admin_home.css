@@ -1,0 +1,65 @@
+body
+{
+	overflow: hidden;
+	font-family: 'Roboto';
+}
+
+/*IDs*/
+
+
+#account_name
+{
+	float: left;
+	margin: 0 auto;
+	margin-left: 20px;
+	font-size: 25px;
+	color: #3a3a3a; 
+}
+
+#site_label
+{
+	float: left;
+	position: relative;
+	font-size: 30px;
+	margin: 10px 0 0 20px;
+}
+
+#profile_picture
+{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	background-color: gray;
+	float: left;
+}
+
+#top_bar
+{
+	padding: 10px;
+	background-color: white;
+	margin: -10px -10px 50px -10px;
+	height: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn_logout
+{
+	border-style: none;
+	border-radius: 10px;
+	background-color: #b72d2d;
+	padding: 15px;
+	color: white;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-right: 30px; 
+	float: right;
+	position: relative;
+}
+
+#btn_logout:hover
+{
+	background-color: #6d1a1a;
+	cursor: pointer;
+}

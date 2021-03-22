@@ -1,0 +1,74 @@
+
+html
+{
+	font-family: 'Roboto';
+}
+
+body
+{
+	margin: 0px auto;
+	background-size: 100%;
+	background-position: fixed;
+	overflow: hidden;
+
+}
+
+/*classes here*/
+
+.textbox
+{
+	font-size: 15px;
+	padding: 5px;
+	margin: 5px;
+	border-style: none;
+	border-bottom-style: solid;
+	border-color:  #cccccc;
+	
+}
+
+/*IDs here*/
+
+#error_msg
+{
+	color: red;
+	text-align: center;
+	font-size: 13px;
+	height: 13px;
+}
+
+#div_site_logo
+{
+	margin: 0 auto;
+	margin-top: 10%;
+	width: 460px;
+	background-color: #013891;
+	padding: 20px;
+}
+
+#div_login
+{
+	margin: 0 auto;
+	background-color: white;	
+	height: 250px;
+	width: 500px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#div_login_content
+{	
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#btn_signin
+{
+	padding: 13px;
+	border-style: none;
+}
+
+#btn_signin:hover
+{
+	background-color: #7a7a7a;
+	cursor: pointer;
+}
